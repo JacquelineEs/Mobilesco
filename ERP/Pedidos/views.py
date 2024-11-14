@@ -10,4 +10,4 @@ def my_view(request):
     context = {
         "Pedidos": Pedidos
     }
-    return render(request, "Modelo_de_Datos/Pedidos.html", context)
+    return render(request, "Pedidos/Pedidos.html", context)

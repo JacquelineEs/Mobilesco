@@ -1,8 +1,8 @@
 from django.db import models
 
 # Create your models here.
-class Pedidos(models.Model):
-    title = models.TextField(max_length=250)
+class Usuario(models.Model):
+    nombre_usuario = models.TextField(max_length=250)
     position = models.TextField(max_length=250, null=True)
 
     def __str__(self):
@@ -22,4 +22,3 @@ class Hoja_de_Presupuesto(models.Model):
     
     def __str__(self):
         return self.folio_pres
-    
